@@ -23,8 +23,7 @@ class Area implements Field{
 class MainClass{
 	public void main(String[] args) {
 		Area f1 = new Area();
-		Area f2 = new Area();
 		f1.getArea(10,3);
-		f2.getSurround(10,3);
+		f1.getSurround(10,3);
 	}
 }
